@@ -130,7 +130,7 @@ function App() {
                 ) : null}
               </div>
               <button type='submit' className='bg-primary-lime text-Neutral-slate-900 rounded-3xl w-full md:w-3/4 h-14 font-semibold font-display my-10 hover:opacity-75'>
-                <div className='flex justify-center space-x-4'><img src='/images/icon-calculator.svg' className='' /><p>Calculate Repayments</p></div>
+                <div className='flex justify-center space-x-4'><img src='/images/icon-calculator.svg' className='' alt='calculator image' /><p>Calculate Repayments</p></div>
               </button>
             </form>
           </div>
@@ -155,7 +155,7 @@ function App() {
             :
             <div>
               <div className='flex justify-center items-center mt-10 md:mt-[156px] mb-6 '>
-                <img src='/images/illustration-empty.svg' className='h-full items-center'></img>
+                <img src='/images/illustration-empty.svg' className='h-full items-center' alt='empty image'></img>
               </div>
               <div className='px-8 pb-16 md:pb-52'>
                 <h2 className='text-white text-2xl text-center font-display'>Results shown here</h2>
